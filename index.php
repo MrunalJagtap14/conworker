@@ -12,7 +12,7 @@ require_once("db.php");
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ConWorker Portal</title>
+  <title>BuildConnect Site</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, supervisior-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -42,7 +42,7 @@ require_once("db.php");
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>C</b>P</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>ConWorker</b> Portal</span>
+      <span class="logo-lg"><b>BuildConnect</b> Site</span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -59,6 +59,9 @@ require_once("db.php");
           <li>
             <a href="#builder">Builder</a>
           </li>
+          <!-- <li>
+            <a href="../StockManagementSystem/index.html">Stocks</a>
+          </li> -->
           <li>
             <a href="#about">About Us</a>
           </li>
@@ -69,6 +72,9 @@ require_once("db.php");
           <li>
             <a href="sign-up.php">Sign Up</a>
           </li>  
+          <li>
+            <a href="admin/index.php">Admin</a>
+          </li>
           <?php } else { 
 
             if(isset($_SESSION['id_user'])) { 
@@ -345,7 +351,7 @@ require_once("db.php");
             <img src="img/browse.jpg" class="img-responsive">
           </div>
           <div class="col-md-6 about-text margin-bottom-20">
-            <p>The online conworker portal application allows supervisiors of labour groups and builder to connect.The application provides the ability for supervisiors to create their accounts, upload their profile and list of labours, search for site jobs, apply for sites jobs, view different site job openings. The application provides the ability for builders to create their accounts, search supervisiors, create requirement postings, and view list of labours.
+            <p>The online BuildConnect Site application allows supervisiors of labour groups and builder to connect.The application provides the ability for supervisiors to create their accounts, upload their profile and list of labours, search for site jobs, apply for sites jobs, view different site job openings. The application provides the ability for builders to create their accounts, search supervisiors, create requirement postings, and view list of labours.
             </p>
             <p>
               This website is used to provide a platform for potential supervisiors to get their labours hired and excel in their work progress.
@@ -363,7 +369,7 @@ require_once("db.php");
 
   <footer class="main-footer" style="margin-left: 0px;">
     <div class="text-center">
-      <strong>Copyright &copy; 2022-2023 <a href="jonsnow.netai.net">ConWorker Portal</a>.</strong> All rights
+      <strong>Copyright &copy; 2023-2024 <a href="jonsnow.netai.net">BuildConnect Site</a>.</strong> All rights
     reserved.
     </div>
   </footer>

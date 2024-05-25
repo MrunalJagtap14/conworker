@@ -16,7 +16,7 @@ require_once("../db.php");
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ConWorker Portal</title>
+  <title>BuildConnect Site</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, supervisior-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -51,7 +51,7 @@ require_once("../db.php");
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>C</b>P</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>ConWorker</b> Portal</span>
+      <span class="logo-lg"><b>BuildConnect</b> Site</span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -130,7 +130,7 @@ require_once("../db.php");
 
   <footer class="main-footer" style="margin-left: 0px;">
     <div class="text-center">
-      <strong>Copyright &copy; 2022-2023 <a href="jonsnow.netai.net">ConWorker Portal</a>.</strong> All rights
+      <strong>Copyright &copy; 2023-2024 <a href="jonsnow.netai.net">BuildConnect Site</a>.</strong> All rights
     reserved.
     </div>
   </footer>
